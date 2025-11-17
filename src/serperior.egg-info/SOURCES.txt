@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/serperior/__init__.py
+src/serperior/base_crawler.py
+src/serperior/dantri_crawler.py
+src/serperior.egg-info/PKG-INFO
+src/serperior.egg-info/SOURCES.txt
+src/serperior.egg-info/dependency_links.txt
+src/serperior.egg-info/requires.txt
+src/serperior.egg-info/top_level.txt
