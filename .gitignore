@@ -57,3 +57,6 @@ htmlcov/
 # Temporary files
 *.tmp
 temp/
+
+# data
+*.csv
