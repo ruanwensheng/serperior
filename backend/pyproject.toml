@@ -1,0 +1,43 @@
+# toml file
+
+[build-system]
+
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "serperior"
+version = "0.2.0"
+authors = [
+    {name ="thang.-_106", email= "Ruanwensheng106@gmail.com"},
+]
+
+description = "crawl Vietnamese news regarding date"
+
+readme = "README.md"
+license = {file = "LICENSE"}
+
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "beautifulsoup4>=4.14.0",
+    "requests>=2.32.0",
+    "lxml>=6.0.0",
+    "playwright>=1.56.0",
+    "pandas>=2.3.0",
+    "numpy>=2.2.0",
+]
+[tool.setuptools.packages.find]
+where = ["."]             
+include = ["serperior*"]
+
+[tool.setuptools.package-dir]        
+
+[project.urls]
+Homepage = "https://github.com/ruanwensheng/serperior"
+Issues = "https://github.com/ruanwensheng/serperior/issues"

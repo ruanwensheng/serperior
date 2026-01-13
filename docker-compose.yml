@@ -1,0 +1,12 @@
+#version: '3.8'
+
+services:
+
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app  
+    environment:
+      - GEMINI_API_KEY=AIzaSyBp_ZT5ADJ3y5lUxePARLmoyF0N3-a3fUQ
