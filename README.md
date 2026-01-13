@@ -36,24 +36,8 @@
 
 ##  Project Structure
 
-```
-Serperior/
-├── backend/                # FastAPI Backend
-│   ├── serperior/
-│   │   ├── api/            # API Endpoints & Crawler Logic
-│   │   ├── rag/            # RAG System & LLM Client
-│   │   └── data/           # Stored Data & Vector DB
-│   ├── tests/              # Unit & Integration Tests
-│   ├── main.py             # Entry Point
-│   ├── requirements.txt    # Python Dependencies
-│   └── Dockerfile          # Backend Docker Image
-├── frontend/               # React Frontend
-│   ├── src/                # Components (Dashboard, ChatInterface)
-│   ├── public/             # Static Assets
-│   └── Dockerfile          # Frontend Docker Image
-├── docker-compose.yml      # Orchestration
-└── README.md               # Project Documentation
-```
+<img width="2048" height="1250" alt="image" src="https://github.com/user-attachments/assets/ca69044b-11c5-40e0-95c6-7bba2b95a8a7" />
+
 
 ##  Getting Started
 
