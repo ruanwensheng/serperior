@@ -72,6 +72,7 @@ class ArticleVectorDB:
         documents = []  
         metadatas = [] 
         ids = []        
+        seen_ids = set()        
         
         # duyệt từng bài báo trong danh sách
         for article in articles:
@@ -90,6 +91,14 @@ class ArticleVectorDB:
             except:
                 pass
 
+            # Generate ID first to check for duplicates
+            article_id = self._generate_id(article)
+            
+            if article_id in seen_ids:
+                continue
+                
+            seen_ids.add(article_id)
+
             # documents là những thông tin quan trọng
             # metadatas là những thông tin phụ, ko cần preprocess và ko cần LLM phải nhận
             documents.append(text)
@@ -100,7 +109,7 @@ class ArticleVectorDB:
                 'url': article.get('url', ''),
                 'body': article.get('body', '')[:500]  
             })
-            ids.append(self._generate_id(article))
+            ids.append(article_id)
         
         if not documents:
             print(" No valid articles to add")

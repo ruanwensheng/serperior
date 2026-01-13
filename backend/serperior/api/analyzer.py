@@ -13,7 +13,7 @@ import argparse
 from .extractor import PhoBERTEntityExtractor
 
 class NewsAnalyzer:
-    """Phân tích tin tức: xu hướng, sentiment, và trích xuất thực thể"""
+    """trích xuất thực thể"""
     
     def __init__(self, use_phobert: bool = True):
         """

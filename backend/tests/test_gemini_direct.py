@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import os
 
-key = "AIzaSyBp_ZT5ADJ3y5lUxePARLmoyF0N3-a3fUQ"
+key = os.getenv("GEMINI_API_KEY")
 
 try:
     print("Configuring Gemini...")

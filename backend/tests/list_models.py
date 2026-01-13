@@ -1,7 +1,7 @@
 import requests
 import os
 
-key = "AIzaSyBp_ZT5ADJ3y5lUxePARLmoyF0N3-a3fUQ"
+key = os.getenv("GEMINI_API_KEY")
 
 url = f"https://generativelanguage.googleapis.com/v1beta/models?key={key}"
 

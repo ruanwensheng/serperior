@@ -33,11 +33,14 @@ ENV/
 *.swo
 *~
 
-# Data files (nếu không muốn push data lên)
+# Data files
 data/
 *.csv
 *.xlsx
 *.json
+
+backend/data/
+*.vhdx
 
 # Playwright
 .playwright/
@@ -60,3 +63,7 @@ temp/
 
 # data
 *.csv
+
+.env
+
+

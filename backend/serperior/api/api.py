@@ -168,7 +168,7 @@ try:
         # Use env var if available, else rely on manual set or error later
         gemini_key = os.getenv("GEMINI_API_KEY") 
         if not gemini_key:
-             gemini_key = "AIzaSyBp_ZT5ADJ3y5lUxePARLmoyF0N3-a3fUQ"
+             raise ValueError("GEMINI_API_KEY not found in environment variables")
              
         llm_client = LLMClient(provider="gemini", api_key=gemini_key)
 except Exception as e:
