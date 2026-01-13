@@ -1,7 +1,7 @@
 # Serperior - Intelligent News Analysis & RAG System
 ![React App and 4 more pages - Personal - Microsoft_ Edge 2026-01-13 21-44-04 (1)](https://github.com/user-attachments/assets/58e7520f-c86c-45fb-8f78-a8ed2619c23f)
 
-**Serperior** is a full-stack application designed to crawl, analyze, and interact with Vietnamese news data (specifically from Dân Trí). It combines automated web scraping, natural language processing (NLP), and Retrieval-Augmented Generation (RAG) to provide deep insights and a conversational interface for news exploration.
+**Serperior** is my tiny tiny project designed to crawl, analyze, and interact with Vietnamese news data (specifically from Dân Trí). It combines automated web scraping, natural language processing (NLP), and Retrieval-Augmented Generation (RAG) so that you can read news in 5 seconds.
 
 ##  Key Features
 
