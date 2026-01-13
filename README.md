@@ -30,9 +30,7 @@
 *   **Styling**: Modern CSS / Tailwind (inferred)
 *   **Visualization**: Charts & Data Tables
 
-### DevOps
-*   **Containerization**: Docker & Docker Compose
-*   **Environment**: Conda
+
 
 ##  Project Structure
 
